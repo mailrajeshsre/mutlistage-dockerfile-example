@@ -1,5 +1,5 @@
 # Stage-1 Build
-FROM maven as maven
+FROM maven AS maven
 RUN mkdir /usr/src/mymaven
 WORKDIR /usr/src/mymaven
 COPY . .
